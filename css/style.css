@@ -1,0 +1,89 @@
+:root{
+  --cor01:#D5BDAF;
+  --cor02:#E3D5CA;
+  --cor03:#F5EBE0;
+  --cor04:#D6CCC2;
+  --cor05:#8A5A44;
+  --cor06:#774936;
+  --cor07:#d6c8b9;
+  --fontDestaque:'Bernardo Moda';
+  --fontPadrao: 'PT Mono', monospace;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+:target {
+  scroll-margin-top: .8em;
+}
+body{
+  background-color: var(--cor02);
+  border: 10px solid var(--cor01);
+}
+.logo{
+width: 100px;
+}
+.nav-link{
+  font-family: var(--fontPadrao);
+  font-size: 1.2rem;
+}
+.color-nav{
+  color: var(--cor05);
+}
+h1, h2{
+ color: var(--cor05);
+ font-family: var(--fontDestaque);
+}
+
+h5{
+  font-family: var(--fontPadrao);
+  color: var(--cor05);
+}
+p{
+  font-family: var(--fontPadrao);
+}
+
+.slide-height{
+  height: 400px;
+}
+.footer{
+  background-color: var(--cor01);
+}
+.card-body{
+background-color: var(--cor01);
+}
+.card-header, .card-footer{
+  background-color: var(--cor03);
+}
+.btn-add{
+  border: 2px solid var(--cor06);
+  color: var(--cor06);
+  font-family: var(--fontPadrao);
+}
+
+.btn-add:hover{
+  background: var(--cor06);
+  color: var(--cor03);
+}
+.flex{
+  display: flex;
+}
+.wCard{
+height: 400px;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.alinhar{
+  width: 80%;
+
+  margin: 40px;
+}
+.circle{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
